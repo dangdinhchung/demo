@@ -1,0 +1,20 @@
+{
+  "name": "my-blog",
+  "version": "0.0.1",
+  "description": "my blog",
+  "main": "index.js",
+  "authors": {
+    "name": "chungdd",
+    "email": "dangdinhchung98@gmail.com"
+  },
+  "repository": "my-blog/my-blog",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3",
+    "vuepress-theme-blog-vuetify": "^1.6.2"
+  }
+}
